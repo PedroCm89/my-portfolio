@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import {NgFor} from '@angular/common';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
