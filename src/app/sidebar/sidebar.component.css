@@ -1,0 +1,38 @@
+.wrapper{
+    padding: 2rem;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.sub-title{
+    padding: .5rem 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.pre-title{
+    padding: 1rem 0;
+}
+
+.description{
+
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.2rem;
+    line-height: 0.2rem;
+}
+
+.presentation-photo{
+    clip-path: circle(50%);
+    display: block;
+    margin-left: 3rem;
+    width: 300px;
+    opacity: 0.1;
+}
+
+.links{
+    padding: 2rem;
+    /*width: 20px;*/
+    padding-inline: 1rem;
+    display: flex;
+}

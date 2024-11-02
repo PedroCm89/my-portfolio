@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --color-1:#e8eed1;
-    --color-2:#18b42f;
-    --color-3:#FF97E5;
+    --color-1:#ffe5ec;
+    --color-2:#ffc2d1;
+    --color-3:#ffb3c6;
 }
 
 html, body{
@@ -11,4 +11,14 @@ html, body{
     color: rgb(5, 4, 4);
     font-family: 'Cabin', sans-serif;
     background-color: var(--color-1);
+}
+
+h1,h2{
+    margin: 0;
+}
+
+@for $i from i through 100{
+    .animation-#{$i}{
+        animation-delay: #{$i/10}s;
+    }
 }
