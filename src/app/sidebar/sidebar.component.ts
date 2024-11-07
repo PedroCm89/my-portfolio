@@ -14,7 +14,7 @@ export class SidebarComponent  implements OnInit, AfterViewInit{
   @ViewChild('asTitle') asTitle: ElementRef | undefined;
   links: Array<any> =[
     {
-      link: 'linkedin.com/in/pedro-carrasco-mora-08a273254',
+      link: 'https://www.linkedin.com/in/pedro-carrasco-mora-08a273254/',
       icon: '<i class="uil uil-linkedin"></i>'
     },
     {
