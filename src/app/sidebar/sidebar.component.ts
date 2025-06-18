@@ -19,7 +19,7 @@ export class SidebarComponent  implements OnInit, AfterViewInit{
     },
     {
       link: 'https://github.com/PedroCm89',
-      icon: '<i class="uil uil-github"></i>'
+      icon: '<></i>'
     },
     {
       link: 'mailto:pecamo.1989@gamil.com',

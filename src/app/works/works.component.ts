@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { GithubService } from '../github.service';
+import { NgFor } from '@angular/common';
 
 @Component({
   selector: 'app-works',
   standalone: true,
-  imports: [],
+  imports: [NgFor],
   templateUrl: './works.component.html',
   styleUrl: './works.component.css'
 })
@@ -18,7 +19,7 @@ constructor(private githubService:GithubService){
 
 ngOnInit():void{
   this.githubService.LoadRepos().subscribe( res=>{
-    console.log(res);
+    this.repos=res;
     }
   );
 }
