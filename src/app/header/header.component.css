@@ -1,12 +1,18 @@
+.main{
+  background-color: var(--primary-color);
+}
+
 .wrapper{
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
     align-items: center;
     align-content: center;
-    height: 3.5rem;
-    border-bottom: solid 1.5px rgb(255, 246, 245);
-    box-shadow: 0 0px 30px rgb(232, 57, 57);
+    height: 5.5rem;
+    box-shadow: 0 0px 30px rgb(0, 0, 0);
+}
+.name{
+    margin-left: 10%;
 }
 
 .section-2{
@@ -24,7 +30,6 @@
                 opacity: .6;
               }
         }
-        
         .item-number{
             color: var(--color-3);
             padding: 8rem;

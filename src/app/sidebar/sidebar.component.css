@@ -43,7 +43,7 @@
             align-content: center;
             align-items: center;
             font-size: 3rem;
-            background-color: #fdd9e2;
+            background-color: var(--tercery-color);
         }
 
     }

@@ -1,8 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --color-1:#ffe5ec;
-    --color-2:#ffc2d1;
-    --color-3:#ffb3c6;
+  --primary-color: #06d2ec;
+  --secondary-color: #E9E9ED;
+  --tercery-color: #75b79824;
+  --background-color: #EBF1FF;
+  --text-color: #111827;
+  --accent-color: #ff8000;
 }
 
 html, body{
@@ -10,7 +13,7 @@ html, body{
     padding: 0; */
     color: rgb(5, 4, 4);
     font-family: 'Cabin', sans-serif;
-    background-color: var(--color-1);
+    background-color: var(--background-alt);
 }
 
 h1,h2{

@@ -13,9 +13,9 @@
     .date{
         font-size: .85rem;
     }
-    
+
     .block-repo-in{
-        background-color: #fdd9e2;
+        background-color: var(--secondary-color);
         width: 100%;
         height: 100%;
         padding: .5rem;
