@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {NgFor} from '@angular/common';
-import { TITTLE_WEBSITE } from '../shared/constants/text';
+import { TITTLE_WEBSITE } from '../../shared/constants/text';
+
 
 @Component({
   selector: 'app-header',

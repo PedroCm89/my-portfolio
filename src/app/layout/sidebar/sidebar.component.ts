@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { PRESENTATION_TEXT, NAME, JOB_TITLE, CONTACT_LINKS_TITLE, GREETING } from '../shared/constants/text';
+import { PRESENTATION_TEXT, NAME, JOB_TITLE, CONTACT_LINKS_TITLE, GREETING } from '../../shared/constants/text';
 import Typewriter from 't-writer.js';
 
 @Component({

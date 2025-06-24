@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GithubService } from '../github.service';
+import { GithubService } from '../../core/github/github.service';
 import { NgFor } from '@angular/common';
 
 @Component({

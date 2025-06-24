@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from "./header/header.component";
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { WorksComponent } from './works/works.component';
+import { HeaderComponent } from "./layout/header/header.component";
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { WorksComponent } from './features/works/works.component';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { WorksComponent } from './works/works.component';
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     imports: [
-      RouterOutlet, 
+      RouterOutlet,
       HeaderComponent,
       SidebarComponent,
       WorksComponent,
