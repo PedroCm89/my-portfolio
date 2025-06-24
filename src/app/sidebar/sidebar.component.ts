@@ -1,5 +1,6 @@
 import { NgFor } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { PRESENTATION_TEXT, NAME, JOB_TITLE, CONTACT_LINKS_TITLE, GREETING } from '../shared/constants/text';
 import Typewriter from 't-writer.js';
 
 @Component({
@@ -10,6 +11,14 @@ import Typewriter from 't-writer.js';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent  implements OnInit, AfterViewInit{
+
+  texts = {
+    PRESENTATION_TEXT,
+    NAME,
+    JOB_TITLE,
+    CONTACT_LINKS_TITLE,
+    GREETING
+  };
 
   @ViewChild('asTitle') asTitle: ElementRef | undefined;
   links: Array<any> =[
@@ -25,8 +34,7 @@ export class SidebarComponent  implements OnInit, AfterViewInit{
       link: 'mailto:pecamo.1989@gamil.com',
       icon: '<i class="uil uil-envelope"></i>'
     },
-   
-     
+
   ];
 
   constructor(){
@@ -49,17 +57,17 @@ export class SidebarComponent  implements OnInit, AfterViewInit{
       typeColor: 'black'
     });
 
-    
+
     writer
-      .type('Pedro Carrasco Mora')
+      .type(this.texts.NAME)
       .rest()
       .start()
       .options()
       .removeCursor();
 
-      
+
   };
- 
+
 
 }
 

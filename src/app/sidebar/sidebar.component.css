@@ -23,11 +23,13 @@
 }
 
 .presentation-photo{
-    clip-path: circle(50%);
-    display: block;
-    margin-left: 3rem;
-    width: 300px;
-    opacity: 0.1;
+  display: block;
+  margin-left: 3rem;
+  width: 300px;
+  height: 300px; /* Hace la imagen cuadrada */
+  object-fit: cover; /* Recorta la imagen para llenar el cuadrado */
+  border-radius: 50%; /* Hace la imagen completamente circular */
+  opacity: 0.1;
 }
 
 .links{

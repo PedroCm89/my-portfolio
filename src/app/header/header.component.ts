@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgFor} from '@angular/common';
+import { TITTLE_WEBSITE } from '../shared/constants/text';
 
 @Component({
   selector: 'app-header',
@@ -10,4 +11,5 @@ import {NgFor} from '@angular/common';
 })
 export class HeaderComponent {
 
+tittle_website = TITTLE_WEBSITE;
 }
