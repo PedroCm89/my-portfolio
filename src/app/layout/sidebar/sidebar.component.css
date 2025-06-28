@@ -1,14 +1,21 @@
-.wrapper{
+.wraspper{
     padding: 2rem;
 }
 
 .title{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .sub-title{
     padding: .5rem 0;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+.sub-title-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem 0;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .pre-title{
@@ -26,9 +33,9 @@
   display: block;
   margin-left: 3rem;
   width: 300px;
-  height: 300px; /* Hace la imagen cuadrada */
-  object-fit: cover; /* Recorta la imagen para llenar el cuadrado */
-  border-radius: 50%; /* Hace la imagen completamente circular */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
   opacity: 0.1;
 }
 
@@ -40,13 +47,13 @@
         .block-in{
             width: 100%;
             height: 100%;
-            display:flex;
-            justify-content:center;
-            align-content: center;
+            display: flex;
+            justify-content: center;
             align-items: center;
             font-size: 3rem;
             background-color: var(--tercery-color);
-        }
+            border-radius: 1rem; /* Solo bordes redondeados */
 
     }
+  }
 }
