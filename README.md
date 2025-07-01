@@ -1,27 +1,50 @@
-# MyApp
+#🧑‍💻 My Developer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+This is my personal portfolio as a frontend developer. The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3. It showcases a selection of my projects, skills, and professional links, including integration with the GitHub API to automatically display my repositories.
+## 🛠️ Technologies
 
-## Development server
+- Angular
+- HTML5 & CSS3
+- Tailwind CSS (for utility-first styling)
+- Animate.css (for animations)
+- IconScout (for icons)
+- Google Fonts (for typography)
+- GitHub API (to display repositories)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Installation & Usage
 
-## Code scaffolding
+To run this project locally, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Clone the repository**  
+```bash
+git clone https://github.com/PedroCm89/my-portfolio.git
 
-## Build
+2.Navigate into the project directory
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+cd my-portfolio
 
-## Running unit tests
+3.Install the dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install
 
-## Running end-to-end tests
+4. Run the development server
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ng serve
+
+5. Open your browser and visit
+
+http://localhost:4200
+
+The app will automatically reload if you change any of the source files.
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## 📬 Contact
+
+Pedro Carraco Mora
+
+📧 pecamo.1989@email.com
+
+🔗 [LinkedIn](https://linkedin.com/in/tuusuario)
